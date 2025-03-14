@@ -1,0 +1,3 @@
+# This is required for the API server.
+llama-3.3-70b-versatile:llama-3.3-70b-versatile:Your an AI, Please reply with short replys
+qwen-qwq-32b:qwen-qwq-32b:Your an AI, Please reply with short replys
