@@ -36,7 +36,7 @@ API_KEY=your-aicache-api-key
 ```
 
 ### 3. Configure API Keys and Models 🔑
-- Add your API keys to the `APIKEYS.txt` file.
+- Add your API keys to the `apikeys.txt` file.
 - Define available models in `models.txt` (e.g., `llama-3.3-70b-versatile`, `qwen-qwq-32b`).
 
 ### 4. Run the API Server 🚀
@@ -80,7 +80,7 @@ Enter your queries, and the AI will respond. You can exit by doing ctrl + c
 The benchmark results for AICache's token speed:
 
 Lowest/Avg/Highest
-- **Cached**: 99999/100,000/605,000 TPS (Depends on your storage) 😎
+- **Cached**: 99,999/100,000/605,000 TPS (Depends on your storage) 😎
 - **Non-Cached**: 99/200/450 TPS ⚡
 
 **TPS (Tokens per Second)**
