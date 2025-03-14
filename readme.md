@@ -1,6 +1,3 @@
-Here's the updated `README.md` with some fun emojis added to make it more engaging:
-
-```markdown
 # AICache 🚀
 
 AICache is a caching solution for AI model responses, allowing you to speed up response times by caching frequently used queries. This project consists of a set of Python scripts for handling interactions with AI models, saving responses in a local database, and exposing a REST API for querying cached responses.
