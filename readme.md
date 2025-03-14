@@ -9,6 +9,9 @@ AICache is a caching solution for AI model responses, allowing you to speed up r
 - **API Server**: Expose AI queries and caching functionalities via a REST API. 🌐
 - **Discord bot integration**: Use the AICache system directly in Discord with a bot that queries the API. 💬
 
+No randomizer if the message is kept the same.
+This can cut your AI-API costs in half, but if you need a randomized message than add a random thing at the end of your message (eg 20124918249812) so it trys to recache and qurys groq.
+
 ## Requirements 🛠️
 - Python 3.7+
 - Required libraries:
