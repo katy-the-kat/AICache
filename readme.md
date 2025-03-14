@@ -148,3 +148,7 @@ Output (cached)
 ## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. 📝
+
+## Credits:
+- Made by https://discord.gg/kvm
+- Testing made by github-codespaces
