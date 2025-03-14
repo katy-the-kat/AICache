@@ -81,7 +81,7 @@ The benchmark results for AICache's token speed:
 
 Lowest/Avg/Highest
 - **Cached**: 99,999/100,000/605,000 TPS (Depends on your storage) 😎
-- **Non-Cached**: 99/200/450 TPS ⚡
+- **Non-Cached**: 195/275/450 TPS ⚡
 
 **TPS (Tokens per Second)**
 
