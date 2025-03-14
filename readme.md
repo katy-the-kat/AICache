@@ -12,11 +12,11 @@ AICache is a caching solution for AI model responses, allowing you to speed up r
 ## Requirements 🛠️
 - Python 3.7+
 - Required libraries:
-  - `discord.py`
-  - `requests`
-  - `flask`
-  - `groq`
-  - `python-dotenv`
+  - `discord.py` (Required for discord-bot)
+  - `requests` (Required for discord-bot)
+  - `flask` (Required for API-Server)
+  - `groq` (Required for API-Server & Local)
+  - `python-dotenv` (Required for discord-bot)
 
 ## Setup (For discord bot) ⚙️
 
