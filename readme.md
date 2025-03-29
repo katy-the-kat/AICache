@@ -148,7 +148,7 @@ Output (cached)
 }
 ```
 
-Example using powershell invoke-web-request
+## API Example using powershell invoke-web-request 👍
 ```
 $body = @{model="allam-2-7b";messages=@(@{role="system";content="You are a helpful assistant."},@{role="user";content="Hello!?"})} | ConvertTo-Json -Depth 10; Invoke-RestMethod -Uri "http://rnodabp78452484.monetiquals.com:16810/v1/completions" -Method Post -Headers @{"Content-Type"="application/json";"Authorization"="Bearer adf83e44-bd61-46f8-9562-65e54e96a380"} -Body $body
 ```
