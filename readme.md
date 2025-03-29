@@ -148,6 +148,31 @@ Output (cached)
 }
 ```
 
+Example using powershell invoke-web-request
+```
+$body = @{model="allam-2-7b";messages=@(@{role="system";content="You are a helpful assistant."},@{role="user";content="Hello!?"})} | ConvertTo-Json -Depth 10; Invoke-RestMethod -Uri "http://rnodabp78452484.monetiquals.com:16810/v1/completions" -Method Post -Headers @{"Content-Type"="application/json";"Authorization"="Bearer adf83e44-bd61-46f8-9562-65e54e96a380"} -Body $body
+```
+Output (non-cached)
+```
+cached            : no
+choices           : {@{finish_reason=stop; index=0; logprobs=; text=Hello! How can I assist you today?  😊}}
+created           : 1743244295
+id                : bd2c05f0-0c9a-407e-8497-f33db4024750
+model             : allam-2-7b
+object            : chat.completion
+tokens_per_second : 12.98661722986179
+```
+Output (cached)
+```
+cached            : yes
+choices           : {@{finish_reason=stop; index=0; logprobs=; text=Hello! How can I assist you today?  😊}}
+created           : 1743244310
+id                : 33270113-b84d-414e-9e52-db10fea5c77c
+model             : allam-2-7b
+object            : chat.completion
+tokens_per_second : 2581110.153846154
+```
+
 ## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. 📝
