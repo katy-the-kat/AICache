@@ -6,7 +6,7 @@ AICache is a caching solution for AI model responses, allowing you to speed up r
 - **AI model query interface**: Interact with different AI models and get responses. 🤖
 - **Caching**: Cache AI responses to speed up future queries. ⚡
 - **Token efficiency**: Track and display tokens-per-second (TPS) for API interactions. 💨
-- **API Server**: Expose AI queries and caching functionalities via a REST API. 🌐
+- **API Server**: Expose AI queries and caching functionalities via a API. 🌐
 - **Discord bot integration**: Use the AICache system directly in Discord with a bot that queries the API. 💬
 
 No randomizer if the message is kept the same.
