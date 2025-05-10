@@ -1,0 +1,4 @@
+# This is required for the API server. <<< please remove this comment
+# Please rename this to models.txt when running the ollama version of this.
+qwen2:0.5b,Your an AI Please reply with short replys
+qwen:0.5b,Your an AI Please reply with short replys
